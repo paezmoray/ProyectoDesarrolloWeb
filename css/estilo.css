@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+footer {
+  background-color: rgb(180, 34, 180);
+  font-size: 10px;
+  margin: 5px;
+  border: 2px salmon solid;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  grid-area: footer;
+}
+footer a {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -131,21 +146,6 @@ body main section button {
   width: 5.5rem;
   height: 1.55rem;
   transition: all 1s;
-}
-
-footer {
-  background-color: rgb(180, 34, 180);
-  font-size: 10px;
-  margin: 5px;
-  border: 2px salmon solid;
-  padding: 5px;
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  grid-area: footer;
-}
-footer a {
-  display: inline-block;
-  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
