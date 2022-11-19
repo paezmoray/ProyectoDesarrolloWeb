@@ -1,14 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
 }
 
 /* HEADER */
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -23,7 +25,7 @@ header {
   border: 2px salmon solid;
   padding: 5px;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   grid-area: header;
 }
 
@@ -38,13 +40,16 @@ h1 {
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 50%;
   }
+
   100% {
     opacity: 100%;
   }
 }
+
 .marca {
   animation-name: marca;
   animation-duration: 3s;
@@ -76,7 +81,7 @@ main {
   margin: 5px;
   border: 2px solid violet;
   padding: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -86,19 +91,20 @@ h2 {
 .parrafo {
   text-align: justify;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nosotros {
   width: 12.5rem;
   height: 12.5rem;
   filter: grayscale(70%);
-}
-.nosotros:hover {
-  filter: grayscale(0%);
-  width: 15.6rem;
-  height: 15.6rem;
-  transition: all 2s;
+
+  &:hover {
+    filter: grayscale(0%);
+    width: 15.6rem;
+    height: 15.6rem;
+    transition: all 2s;
+  }
 }
 
 body main section {
@@ -106,11 +112,12 @@ body main section {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-body main section img {
-  width: 20rem;
-  border-radius: 4px;
-  filter: grayscale(70%);
+
+  img {
+    width: 20rem;
+    border-radius: 4px;
+    filter: grayscale(70%);
+  }
 }
 
 img:hover {
@@ -140,12 +147,11 @@ footer {
   border: 2px salmon solid;
   padding: 5px;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   grid-area: footer;
-}
-footer a {
-  display: inline-block;
-  margin: 0.5rem;
-}
 
-/*# sourceMappingURL=estilo.css.map */
+  a {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+}
